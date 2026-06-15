@@ -1,4 +1,4 @@
-# Market Research · Relationship Manager (Pro-Active Family CRM)
+# Market research · Shejire 2.0
 
 **Дата заполнения:** 15.06.2026
 **Фокус:** Создание «живого» инструмента для поддержания родственных связей (Силату-р-Рахим) через ИИ-агента.
