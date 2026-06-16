@@ -1,0 +1,22 @@
+{
+  "name": "shejire-2-mvp",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node ./node_modules/nuxt/bin/nuxt.mjs dev",
+    "build": "node ./node_modules/nuxt/bin/nuxt.mjs build",
+    "preview": "node ./node_modules/nuxt/bin/nuxt.mjs preview",
+    "postinstall": "node ./scripts/patch-nuxt-kit.mjs && node ./node_modules/nuxt/bin/nuxt.mjs prepare",
+    "prepare": "node ./scripts/patch-nuxt-kit.mjs"
+  },
+  "dependencies": {
+    "nuxt": "3.9.3",
+    "vue": "3.4.15",
+    "vue-router": "4.2.5"
+  },
+  "devDependencies": {},
+  "overrides": {
+    "nuxi": "3.9.1"
+  }
+}
